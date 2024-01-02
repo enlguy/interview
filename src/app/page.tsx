@@ -21,7 +21,11 @@ export default function Home() {
         <p className="text-xl mt-6 max-w-prose text-bold text-muted-foreground">
           Welcome to InterPrep
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+        <p className="text-lg max-w-prose text-bold text-muted-foreground">
+          Choose a job from the dropdown and submit your responses to be scored
+          by an executive recruiter
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 mt-10 text-lg">
           <DropdownMenu>
             <DropdownMenuTrigger>Jobs</DropdownMenuTrigger>
             <DropdownMenuContent>
