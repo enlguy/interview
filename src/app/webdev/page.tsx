@@ -24,6 +24,10 @@ const page = () => {
             placeholder="Enter your response here..."
           />
         </div>
+        <div className="text-black text-lg mt-10">
+          Please include your email address to receive your scoring
+          <Textarea className="mt-4" placeholder="sample@sample.com" />
+        </div>
         <Button
           className="bg-blue-300 flex float-right mx-5 my-2"
           variant="outline"

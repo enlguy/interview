@@ -29,6 +29,15 @@ export default function Home() {
           <DropdownMenu>
             <DropdownMenuTrigger>Jobs</DropdownMenuTrigger>
             <DropdownMenuContent>
+              <DropdownMenuLabel>Accounting</DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuLabel>Admin</DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>Executive Assistant</DropdownMenuItem>
+              <DropdownMenuLabel>Health</DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuLabel>Hospitality</DropdownMenuLabel>
+              <DropdownMenuSeparator />
               <DropdownMenuLabel>Technology</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
@@ -38,9 +47,6 @@ export default function Home() {
                 <Link href="/softeng">Software Engineer</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>App Developer</DropdownMenuItem>
-              <DropdownMenuLabel>Admin</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>Executive Assistant</DropdownMenuItem>
               <DropdownMenuLabel>Sales</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem>BDR</DropdownMenuItem>
