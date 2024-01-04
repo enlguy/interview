@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Button } from "@/components/ui/button";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("mzbnbjvz");
+  const [state, handleSubmit] = useForm("mdoqowgv");
 
   if (state.succeeded) {
     return <p>Thanks for your submission!</p>;
@@ -48,16 +48,6 @@ export default function ContactForm() {
       <Textarea id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
   */}
-        <label htmlFor="email">Email Address</label>
-        <input id="email" type="email" name="email" />
-        <Textarea
-          name="email"
-          id="email"
-          required
-          className="text-black text-lg mt-10"
-          placeholder="jacob@google.com"
-        />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <Button
           className="bg-blue-300 flex float-right mx-5 my-2"
           variant="outline"

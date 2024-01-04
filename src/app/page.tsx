@@ -29,28 +29,34 @@ export default function Home() {
           <DropdownMenu>
             <DropdownMenuTrigger>Jobs</DropdownMenuTrigger>
             <DropdownMenuContent>
-              <DropdownMenuLabel>Accounting</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/accounting">Accounting</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuLabel>Admin</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/admin">Admin</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Executive Assistant</DropdownMenuItem>
-              <DropdownMenuLabel>Health</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/health">Health</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuLabel>Hospitality</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/hospitality">Hospitality</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuLabel>Technology</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/marketing">Marketing</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Link href="/webdev">Web Developer</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="/softeng">Software Engineer</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>App Developer</DropdownMenuItem>
-              <DropdownMenuLabel>Sales</DropdownMenuLabel>
+              <DropdownMenuLabel>
+                <Link href="/sales">Sales</Link>
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>BDR</DropdownMenuItem>
-              <DropdownMenuItem>Large Account Management</DropdownMenuItem>
+              <DropdownMenuLabel>
+                <Link href="/technology">Technology</Link>
+              </DropdownMenuLabel>
+              <DropdownMenuSeparator />
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
