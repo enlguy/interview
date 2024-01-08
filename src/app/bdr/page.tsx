@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Button } from "@/components/ui/button";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("mdoqowgv");
+  const [state, handleSubmit] = useForm("xkndnlar");
 
   if (state.succeeded) {
     return <p>Thanks for your submission!</p>;
@@ -13,11 +13,10 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        How do you prioritize tasks on your typical workday as an executive
-        assistant?
+        How do you improve your sales skills?
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
-          Have you supervised other office staff members before?
+          Describe your best achievement in B2B sales.
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -31,7 +30,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          How do you stay motivated to perform at your best?
+          What drives you to succeed in sales?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -40,8 +39,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Which words would you use to describe the role of an executive
-          assistant and why?
+          Is learning important in B2B sales? Why?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -50,22 +48,13 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Provide me with an example of a time you had to collaborate with a
-          team to solve an issue for an executive.
+          How would you persuade someone to complete a project using your
+          strategies?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
             id="message4"
             name="message4"
-          />
-        </div>
-        <div className="text-black text-lg mt-10">
-          Which is the most challenging part of being an executive assistant?
-          <Textarea
-            className="mt-4"
-            placeholder="Enter your response here..."
-            id="message5"
-            name="message5"
           />
         </div>
         <div className="text-black text-lg mt-10">
