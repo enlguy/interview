@@ -39,6 +39,11 @@ export default function ContactForm() {
             id="message2"
             name="message2"
           />
+          <ValidationError
+            prefix="Message2"
+            field="message2"
+            errors={state.errors}
+          />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         {/* <label htmlFor="email">Email Address</label>

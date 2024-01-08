@@ -13,11 +13,11 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        How would you describe the role of a Web Developer? What are the most
-        important aspects of the job and why?
+        How do you prioritize tasks on your typical workday as an executive
+        assistant?
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
-          Describe a goal you recently set and how you achieved it.
+          Have you supervised other office staff members before?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -31,13 +31,22 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          How would project managers and fellow web developers you&aposve worked
-          with describe you?
+          How do you stay motivated to perform at your best?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
             id="message2"
             name="message2"
+          />
+        </div>
+        <div className="text-black text-lg mt-10">
+          Provide me with an example of a time you had to collaborate with a
+          team to solve an issue for an executive.
+          <Textarea
+            className="mt-4"
+            placeholder="Enter your response here..."
+            id="message3"
+            name="message3"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
