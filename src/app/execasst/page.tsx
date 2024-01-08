@@ -63,19 +63,12 @@ export default function ContactForm() {
           Please provide your email to receive your score
           <Textarea
             className="mt-4"
-            placeholder="Enter your response here..."
-            id="message5"
-            name="message5"
+            placeholder="sample@sample.com"
+            id="email"
+            name="email"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
-        {/* <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-
-      <Textarea id="message" name="message" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} />
-  */}
         <Button
           className="bg-blue-300 flex float-right mx-5 my-2"
           variant="outline"
