@@ -40,13 +40,32 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Provide me with an example of a time you had to collaborate with a
-          team to solve an issue for an executive.
+          Which words would you use to describe the role of an executive
+          assistant and why?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
             id="message3"
             name="message3"
+          />
+        </div>
+        <div className="text-black text-lg mt-10">
+          Provide me with an example of a time you had to collaborate with a
+          team to solve an issue for an executive.
+          <Textarea
+            className="mt-4"
+            placeholder="Enter your response here..."
+            id="message4"
+            name="message4"
+          />
+        </div>
+        <div className="text-black text-lg mt-10">
+          Please provide your email to receive your score
+          <Textarea
+            className="mt-4"
+            placeholder="Enter your response here..."
+            id="message5"
+            name="message5"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
