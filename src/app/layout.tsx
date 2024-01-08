@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "InterPrep",
+  title: "InterPrep - Job Interview Preparation",
   description: "The best way to prepare for a job interview",
 };
 
