@@ -37,6 +37,10 @@ export default function Home() {
               <DropdownMenuItem>
                 <Link href="/officeman">Office Manager</Link>
               </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuLabel>
+                <Link href="/">Main Menu</Link>
+              </DropdownMenuLabel>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

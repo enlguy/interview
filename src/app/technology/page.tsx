@@ -38,6 +38,10 @@ export default function Home() {
                 <Link href="/softeng">Software Engineer</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>App Developer</DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/">Main Menu</Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

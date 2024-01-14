@@ -37,6 +37,10 @@ export default function Home() {
               <DropdownMenuItem>
                 <Link href="/seo">SEO Specialist</Link>
               </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Link href="/">Main Menu</Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
