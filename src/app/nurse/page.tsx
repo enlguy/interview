@@ -13,11 +13,12 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        How do you prioritize tasks on your typical workday as an executive
-        assistant?
+        Explain a situation where a patient or family member was unhappy with
+        your care. How was the situation handled?
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
-          Have you supervised other office staff members before?
+          Share a time you disagreed with a decision made by a provider. How did
+          you respond, and what was the result?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -31,7 +32,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          How do you stay motivated to perform at your best?
+          How do you manage stress in the workplace?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -40,8 +41,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Which words would you use to describe the role of an executive
-          assistant and why?
+          Describe a situation when you had to work with a difficult coworker.
+          What was the problem, and how did you resolve it?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -50,8 +51,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Provide me with an example of a time you had to collaborate with a
-          team to solve an issue for an executive.
+          What do you do when you don’t know an answer to a patient’s question
+          or how to address a situation?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -60,7 +61,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Which is the most challenging part of being an executive assistant?
+          Describe a circumstance where you were asked to disclose personal,
+          private information by a patient&aposs loved one. How did you respond?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."

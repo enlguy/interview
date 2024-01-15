@@ -70,6 +70,15 @@ export default function ContactForm() {
             />
           </div>
           <div className="text-black text-lg mt-10">
+            Please offer any feedback you have for the site
+            <Textarea
+              className="mt-4"
+              placeholder="Feedback..."
+              id="message5"
+              name="message5"
+            />
+          </div>
+          <div className="text-black text-lg mt-10">
             Please provide your email to receive your score
             <Textarea
               className="mt-4"
