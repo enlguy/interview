@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Button } from "@/components/ui/button";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("xrgngwva");
+  const [state, handleSubmit] = useForm("mdoqowgv");
 
   if (state.succeeded) {
     return <p>Thanks for your submission!</p>;
@@ -13,12 +13,11 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        What strategies do you use to build relationships with enterprise
-        clients?
+        How do you prioritize tasks on your typical workday as an executive
+        assistant?
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
-          How do you qualify sales leads and gather research before reaching
-          out?
+          Tell me how you would migrate an app across operating systems.
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -32,7 +31,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          What are your biggest KPIs?
+          How do you stay motivated to perform at your best?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -41,7 +40,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          What are the most important steps to successful client onboarding?
+          Which words would you use to describe the role of an executive
+          assistant and why?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -50,13 +50,22 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          How do you ensure that all stakeholders involved in an enterprise
-          account are kept informed and updated?
+          Provide me with an example of a time you had to collaborate with a
+          team to solve an issue for an executive.
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
             id="message4"
             name="message4"
+          />
+        </div>
+        <div className="text-black text-lg mt-10">
+          Which is the most challenging part of being an executive assistant?
+          <Textarea
+            className="mt-4"
+            placeholder="Enter your response here..."
+            id="message5"
+            name="message5"
           />
         </div>
         <div className="text-black text-lg mt-10">
