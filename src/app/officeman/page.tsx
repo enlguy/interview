@@ -13,13 +13,11 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        How would you best differentiate your competencies as a controller and
-        why do you think these skills make you the perfect candidate for this
-        specific position?
+        What goals did you set for yourself at your last position? How did you
+        achieve them?
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
-          What&aposs your strategy for simplifying and explaining a complex
-          financial report to someone who needs help understanding it?
+          How do you plan your schedule for the day?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -33,8 +31,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Describe what you believe are some of the best strategies for
-          increasing a company&aposs revenue.
+          Describe what you would classify as an office crisis. How did you deal
+          with it?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -43,7 +41,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          What process do you use when auditing financial reports?
+          How have you ensured the adoption of a new procedure throughout an
+          organization?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -52,9 +51,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Explain a time where your work led you to uncover a potential
-          inefficiency or opportunity in the business. How did you work to
-          communicate and implement this into commercial functions?
+          Can you tell us about a time you were a leader in a team environment?
+          What went right? What would you have done differently?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -63,8 +61,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Have you ever been involved in ethical situations where your role was
-          conflicted by different goals placed on you?
+          Can you recall a time when you resolved a conflict in an office? How
+          did it go?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
