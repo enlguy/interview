@@ -13,8 +13,8 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="text-black text-lg">
-        How do you prioritize tasks on your typical workday as an executive
-        assistant?
+        Talk me through the steps you would take when designing an application
+        to reduce security risks.
         <Textarea className="mt-4" placeholder="Enter your response here..." />
         <div className="text-black text-lg mt-10">
           Tell me how you would migrate an app across operating systems.
@@ -31,7 +31,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          How do you stay motivated to perform at your best?
+          Give me an example of a time you had to work toward a tight deadline.
+          How did you ensure the success of the project?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -40,8 +41,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Which words would you use to describe the role of an executive
-          assistant and why?
+          Think about the last time you received negative feedback during a code
+          review? How did you react?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -50,8 +51,8 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Provide me with an example of a time you had to collaborate with a
-          team to solve an issue for an executive.
+          What would you do if you discovered that a feature you designed had
+          made the application run more slowly?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
@@ -60,7 +61,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="text-black text-lg mt-10">
-          Which is the most challenging part of being an executive assistant?
+          What are the main differences between web and mobile applications?
           <Textarea
             className="mt-4"
             placeholder="Enter your response here..."
